@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "path": "01-var"
+    },
+    {
+      "path": "02-pointers"
+    },
+    {
+      "path": "03-type-and-struct"
+    },
+    {
+      "path": "04-map-and-slice"
+    },
+    {
+      "path": "05-decision"
+    },
+    {
+      "path": "06-loop"
+    },
+    {
+      "path": "07-interface"
+    },
+    {
+      "path": "08-channel"
+    },
+    {
+      "path": "09-json"
+    },
+    {
+      "path": "10-tests"
+    }
+  ],
+  "settings": {}
+}
