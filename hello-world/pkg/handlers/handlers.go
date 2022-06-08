@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/models"
-	"bookings/pkg/render"
+	"myapp/pkg/config"
+	"myapp/pkg/models"
+	"myapp/pkg/render"
 	"net/http"
 )
 

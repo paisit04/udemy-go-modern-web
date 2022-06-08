@@ -1,12 +1,12 @@
 package render
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/models"
 	"bytes"
 	"fmt"
 	"html/template"
 	"log"
+	"myapp/pkg/config"
+	"myapp/pkg/models"
 	"net/http"
 	"path/filepath"
 )

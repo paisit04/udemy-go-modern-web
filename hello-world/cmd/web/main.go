@@ -1,11 +1,11 @@
 package main
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/handlers"
-	"bookings/pkg/render"
 	"fmt"
 	"log"
+	"myapp/pkg/config"
+	"myapp/pkg/handlers"
+	"myapp/pkg/render"
 	"net/http"
 	"time"
 
