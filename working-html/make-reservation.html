@@ -8,33 +8,28 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.2/dist/css/datepicker-bs4.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/notie/dist/notie.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css" />
 
     <title>My nice page</title>
-
-    <style>
-      .my-footer {
-        height: 5em;
-        background-color: #163b65;
-        margin-top: 1.5em;
-        padding: 1em;
-        color: #ffffff;
-        font-size: 80%;
-      }
-
-      .room-image {
-        max-width: 50%;
-      }
-
-      p {
-      }
-    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -94,31 +89,61 @@
         <div class="col">
           <h1>Make reservation</h1>
           <form method="post" action="" class="needs-validation" novalidate>
-            
             <div class="form-group mt-5">
               <label for="first_name">First name:</label>
-              <input type="text" name="first_name" id="first_name" class="form-control" required autocomplete="off">
+              <input
+                type="text"
+                name="first_name"
+                id="first_name"
+                class="form-control"
+                required
+                autocomplete="off"
+              />
             </div>
 
             <div class="form-group">
               <label for="last_name">Last name:</label>
-              <input type="text" name="last_name" id="last_name" class="form-control" required autocomplete="off">
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                class="form-control"
+                required
+                autocomplete="off"
+              />
             </div>
 
             <div class="form-group">
               <label for="email">Email:</label>
-              <input type="email" name="email" id="email" class="form-control" required autocomplete="off">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                required
+                autocomplete="off"
+              />
             </div>
 
             <div class="form-group">
               <label for="phone">Phone number:</label>
-              <input type="text" name="phone" id="phone" class="form-control" required autocomplete="off">
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                class="form-control"
+                required
+                autocomplete="off"
+              />
             </div>
 
-            <hr>
+            <hr />
 
-            <input type="submit" class="btn btn-primary" value="Make Reservation">
-          
+            <input
+              type="submit"
+              class="btn btn-primary"
+              value="Make Reservation"
+            />
           </form>
         </div>
       </div>
