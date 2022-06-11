@@ -4,6 +4,13 @@ Ref: https://www.udemy.com/course/building-modern-web-applications-with-go
 
 ## Bookings
 
+Run
+
 ```sh
-go run cmd/web/*.go
+./run.sh
+```
+
+Test Coverage
+```sh
+go test -coverprofile=coverage.out && go tool cover -html=coverage.out
 ```
