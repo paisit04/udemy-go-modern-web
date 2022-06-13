@@ -1,15 +1,8 @@
-module bookings
+module test_connect
 
 go 1.18
 
 require (
-	github.com/alexedwards/scs/v2 v2.5.0
-	github.com/go-chi/chi/v4 v4.0.0-rc1
-	github.com/justinas/nosurf v1.1.1
-)
-
-require (
-	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.12.1 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
