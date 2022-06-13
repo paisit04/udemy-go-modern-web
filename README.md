@@ -19,3 +19,8 @@ Test Coverage
 ```sh
 go test -coverprofile=coverage.out && go tool cover -html=coverage.out
 ```
+
+## Migration
+https://gobuffalo.io/documentation/database/migrations/
+https://github.com/gobuffalo/fizz/blob/master/README.md
+
